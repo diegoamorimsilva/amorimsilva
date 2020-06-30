@@ -1,0 +1,35 @@
+body h1 {
+    color: #ffffff;
+}
+
+.conteudo {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px;
+    border-radius: 20px;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.conteudo span {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: grid;
+}
+
+.foto {
+    background-image: url(/foto.jpg);
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    padding: 100px;
+    margin-left: auto;
+    background-position: center;
+    background-size: cover;
+}
