@@ -25,11 +25,10 @@ body h1 {
 }
 
 .foto {
-    background-image: url(/foto.jpg);
+    background-image: url(./foto.jpg);
     background-repeat: no-repeat;
-    border-radius: 100px;
+    border-radius: 50% !important;
     padding: 100px;
-    margin-left: auto;
     background-position: center;
     background-size: cover;
 }
