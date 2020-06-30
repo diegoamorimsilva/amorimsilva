@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "amorimsilva",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
