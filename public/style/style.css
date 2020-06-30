@@ -25,7 +25,7 @@ body h1 {
 }
 
 .foto {
-    background-image: url(./foto.jpg);
+    background-image: url(/public/assets/foto.jpg);
     background-repeat: no-repeat;
     border-radius: 50% !important;
     padding: 100px;
