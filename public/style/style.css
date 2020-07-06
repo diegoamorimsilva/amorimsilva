@@ -1,59 +1,7 @@
-body h1 {
-    color: #ffffff;
+body {
+    background-color: #282a36;
 }
 
-body h2 {
-    color: #ffffff;
-}
-
-body header {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    margin-top: -60px;
-}
-
-body header h3 {
-    margin: 5px;
-    color: rebeccapurple;
-}
-
-body header a {
-    text-decoration: none;
-    color: rebeccapurple;
-}
-
-body header a h3:hover {
-    color: rgba(102, 51, 153, 0.664);
-}
-
-.conteudo {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 60px;
-    border-radius: 20px;
-    max-width: 400px;
-    box-sizing: border-box;
-}
-
-.conteudo span {
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-between;
-    align-items: center;
-    display: grid;
-}
-
-.foto {
-    background-image: url(/public/assets/foto.jpg);
-    background-repeat: no-repeat;
-    border-radius: 50% !important;
-    padding: 100px;
-    background-position: center;
-    background-size: cover;
+header {
+    padding: 32px;
 }
