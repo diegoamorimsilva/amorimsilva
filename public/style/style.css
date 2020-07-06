@@ -2,6 +2,31 @@ body h1 {
     color: #ffffff;
 }
 
+body h2 {
+    color: #ffffff;
+}
+
+body header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: -60px;
+}
+
+body header h3 {
+    margin: 5px;
+    color: rebeccapurple;
+}
+
+body header a {
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+body header a h3:hover {
+    color: rgba(102, 51, 153, 0.664);
+}
+
 .conteudo {
     background-color: black;
     display: flex;
