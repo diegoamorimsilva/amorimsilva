@@ -1,0 +1,86 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Ubuntu&display=swap";
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: #282a36;
+    color: white;
+}
+
+header {
+    padding: 32px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+header div {
+    text-align: center;
+}
+
+header div a {
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 10px;
+}
+
+header div a:hover {
+    color: rgba(182, 76, 243, 0.904);
+    transition: 200ms;
+}
+
+#Caixa {
+    text-align: center;
+    padding: 32px;
+}
+
+#Caixa img {
+    border-radius: 50%;
+    border: 2px solid rgba(182, 76, 243, 0.904);
+    margin-bottom: 32px;
+    max-width: 300px;
+    width: 100%;
+    height: auto !important;
+}
+
+#Caixa h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+}
+
+#Caixa h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+}
+
+#Caixa p {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin: 32 auto;
+    opacity: 0.8;
+}
+
+#Caixa h2 a {
+    color: rgba(182, 76, 243, 0.904);
+    text-decoration: none;
+}
+
+#socialMidia {
+    text-align: center;
+}
+
+#socialMidia a img {
+    height: 64px;
+    margin: 8px;
+}
